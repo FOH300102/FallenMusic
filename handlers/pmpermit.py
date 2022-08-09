@@ -18,19 +18,19 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ʙᴀɴɴᴇᴅ.\n",
+                f"ʜᴇʏ {message.from_user.mention()},\nᴛʜɪs ɪs [{bn}](t.me/{lel}) ᴍᴜsɪᴄ ʙᴏᴛ ᴀssɪsᴛᴀɴᴛ ᴀᴄᴄᴏᴜɴᴛ.\n\nᴅᴏɴ'ᴛ ᴛʀʏ ᴛᴏ sᴘᴀᴍ ʜᴇʀᴇ ᴇʟsᴇ ʏᴏᴜ ᴡɪʟʟ ɢᴇᴛ ʙᴀɴɴᴇᴅ",
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "🤖 ʙᴏᴛ ", url=f"https://t.me/{lel}"
+                        " ʙᴏᴛ ", url=f"https://t.me/{lel}"
                     ),
                     InlineKeyboardButton(
-                        "✨️ sᴜᴩᴩᴏʀᴛ ", url=f"https://t.me/iniokekkkk"
+                        "💖 sᴜᴩᴩᴏʀᴛ 💖", url=f"https://t.me/iniokekkkk"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "👤 ᴏᴡɴᴇʀ ", url=f"https://t.me/{OWNER_USERNAME}"
+                        "ᴏᴡɴᴇʀ​​", url=f"https://t.me/{OWNER_USERNAME}"
                     )]
             ]
         ),
