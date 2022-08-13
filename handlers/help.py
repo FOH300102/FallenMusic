@@ -34,7 +34,7 @@ async def help_cmd(client: Client, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "📍 𝙆𝙀𝙆 Store", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "📥 Donasi", url="https://sociabuzz.com/iniokekkk/tribe"
                     ),
                     InlineKeyboardButton(
                         "❄ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​", url="https://xnxx.com"
